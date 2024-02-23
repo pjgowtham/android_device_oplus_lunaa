@@ -89,6 +89,13 @@ odm/etc/lvimfs_params/LVIMFS_Parameter_ID9_MIC_Voice.txt
 # Bluetooth Firmware
 odm/etc/bt/msnv11.bin
 
+# Camera - from OnePlus 12 (CPH2581_14.0.0.830(EX01))
+odm/lib64/libarcsoft_dualcam_bokeh_api.so|bfdca4001321d1da972a5d8203b7f2aab6bbeb4d
+odm/lib64/libarcsoft_dualcam_refocus_left.so|af5108ddfcb055ea6d55a03831a39f5001ab287e
+odm/lib64/libarcsoft_dualcam_refocus_preview.so|41c885f87cecd952b4fa5eb7459c3dc5f832b893
+odm/lib64/libarcsoft_dualcam_refocus_uw.so|ac685bfd05d0fd656a17df96c083086e91425802
+odm/lib64/libarc.ion.so|66db5600d6ac48ac5abb7ed7aecdcf3fee92dbc2
+
 # Camera
 odm/etc/camera/aicolor/duallut_background.bmp;MODULE_SUFFIX=.aiboost
 odm/etc/camera/aicolor/duallut_portrait.bmp;MODULE_SUFFIX=.aiboost
