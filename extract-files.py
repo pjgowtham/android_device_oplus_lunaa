@@ -35,17 +35,12 @@ blob_fixups: blob_fixups_user_type = {
         .regex_replace('STNFC_FW_CONF_NAME="/data/vendor/nfc/libnfc-st21h_conf.txt"', 'STNFC_FW_CONF_NAME="libnfc-st21h_conf.txt"'),
     'vendor/etc/libnfc-nci.conf': blob_fixup()
         .regex_replace('NFC_DEBUG_ENABLED=1', 'NFC_DEBUG_ENABLED=0'),
-    'vendor/etc/libnfc-nxp.conf': blob_fixup()
-        .regex_replace('(NXPLOG_.*_LOGLEVEL)=0x03', '\\1=0x02')
-        .regex_replace('NFC_DEBUG_ENABLED=1', 'NFC_DEBUG_ENABLED=0'),
     'vendor/lib/hw/audio.primary.lahaina.so': blob_fixup()
         .replace_needed('/vendor/lib/liba2dpoffload.so', '/odm/lib/liba2dpoffload.so')
         .replace_needed('/vendor/lib/libssrec.so', '/odm/lib/libssrec.so')
         .replace_needed('libgui1_vendor.so', 'libgui_vendor.so'),
     'vendor/lib/libextcamera_client.so': blob_fixup()
         .replace_needed('libgui1_vendor.so', 'libgui_vendor.so'),
-    'vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so': blob_fixup()
-        .sig_replace('27 0B 00 94', '1F 20 03 D5'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
