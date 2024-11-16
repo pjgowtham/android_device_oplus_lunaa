@@ -919,6 +919,8 @@ odm/etc/nfc/st21nfc_fw.bin_st21h:vendor/firmware/st21nfc_fw.bin
 odm/etc/nfc/st21nfc_fw7.bin_st21h:vendor/firmware/st21nfc_fw7.bin
 
 # Sensors
+my_product/etc/fusionlight_profile/oplus_fusion_light_args.xml:odm/etc/fusionlight_profile/oplus_fusion_light_args.xml
+my_product/etc/fusionlight_profile/oplus_fusion_light_args_2.xml:odm/etc/fusionlight_profile/oplus_fusion_light_args_2.xml
 odm/bin/hw/vendor-oplus-hardware-oplusSensor-V1-service
 odm/etc/init/vendor-oplus-hardware-oplusSensor-V1-service.rc
 odm/etc/sensor/config/alsps.json
