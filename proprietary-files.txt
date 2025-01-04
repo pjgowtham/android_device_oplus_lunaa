@@ -52,14 +52,8 @@ odm/lib/rfsa/adsp/libvdblurless_skel.so
 odm/lib/rfsa/adsp/libvdsuperphoto_skel.so
 
 # Audio
-odm/lib/libaudioEngineerTest.so
 odm/lib/liblvimfs.so
 odm/lib/liblvimfs_wrapper.so
-vendor/lib/hw/audio.primary.lahaina.so
-vendor/lib/liba2dpoffload.so:odm/lib/liba2dpoffload.so;MODULE_SUFFIX=_odm
-vendor/lib/libssrec.so:odm/lib/libssrec.so;MODULE_SUFFIX=_odm
-vendor/lib/libextcamera_client.so
-vendor/lib/vendor.oplus.hardware.extcamera@1.0.so
 
 # Audio firmware
 odm/firmware/tfa98xx.cnt
